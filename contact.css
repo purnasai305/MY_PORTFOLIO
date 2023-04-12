@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:ital,wght@0,300;1,100&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  color: rgb(103, 75, 20);
+}
+
+
+
+.contactform{
+  padding-top: 144px;
+  margin-top: 20px;
+  padding: 0 34px;
+  margin: 0 90px; 
+}
+
+.contactform{
+  margin: 50px 40px;
+}
+.contactform label{
+  font-weight: bold;
+}
+.contactform h1{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.contactform form div{
+  display: flex;
+  padding: 10px 0;
+  flex-direction: column;
+}
+
+.contactform form div input{
+  border-radius: 5px;
+  margin: 6px 0 0 0;
+  border-color: orange;
+  padding: 3px;
+  font-weight: 600;
+  color: rgb(45, 42, 35);
+}
+textarea{
+  border-color: orange;
+  border: solid;
+  border-radius: 5px;
+}
+
+textarea::placeholder{
+  font-size: 19px;
+  font-weight: bold;
+  color: rgb(113, 108, 97);
+  text-align: center;
+}
+
+
+button{
+  padding: 7px 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 190px;
+  margin-top: 10px;
+}
+
+button:hover{
+  background-color: rgb(244, 198, 111);
+  transition: 0.4s;
+}
